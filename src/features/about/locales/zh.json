@@ -1,0 +1,121 @@
+{
+  "title": "关于 VSeek",
+  "company": {
+    "name": "VSeek",
+    "description": "基于问题导向的决策支持平台",
+    "mission": "让每个问题都能找到最佳解决方案，让每一次决策都更加明智",
+    "vision": "成为全球领先的智能决策支持平台，赋能个人和企业的智慧决策",
+    "founded": "2025年",
+    "headquarters": "北京市海淀区",
+    "employeeCount": "20-50人"
+  },
+  "sections": {
+    "mission": {
+      "title": "使命",
+      "icon": "target"
+    },
+    "vision": {
+      "title": "愿景",
+      "icon": "eye"
+    },
+    "founding": {
+      "title": "成立时间",
+      "icon": "award"
+    }
+  },
+  "values": {
+    "title": "我们的价值观",
+    "items": [
+      {
+        "title": "问题导向",
+        "description": "以解决实际问题为出发点，提供精准有效的决策支持",
+        "icon": "heart"
+      },
+      {
+        "title": "智能推荐",
+        "description": "运用AI技术，为用户提供个性化的解决方案推荐",
+        "icon": "zap"
+      },
+      {
+        "title": "数据驱动",
+        "description": "基于真实数据和用户反馈，持续优化推荐算法",
+        "icon": "shield"
+      },
+      {
+        "title": "开放协作",
+        "description": "构建开放的解决方案生态，促进知识共享与协作",
+        "icon": "users"
+      }
+    ]
+  },
+  "timeline": {
+    "title": "发展历程",
+    "events": [
+      {
+        "id": "1",
+        "year": "2025-08",
+        "title": "VSeek正式创立",
+        "description": "专注于问题导向的决策支持平台开发",
+        "type": "milestone"
+      },
+      {
+        "id": "2",
+        "year": "2025-09",
+        "title": "产品Beta版发布",
+        "description": "完成核心功能开发，开始邀请用户内测",
+        "type": "product"
+      },
+      {
+        "id": "3",
+        "year": "2025-10",
+        "title": "智能推荐算法上线",
+        "description": "基于AI技术的个性化解决方案推荐系统正式发布",
+        "type": "product"
+      },
+      {
+        "id": "4",
+        "year": "2025-11",
+        "title": "V1.0正式发布",
+        "description": "VSeek平台正式上线，获得首批注册用户",
+        "type": "milestone"
+      },
+      {
+        "id": "5",
+        "year": "2025-12",
+        "title": "用户破千",
+        "description": "注册用户数量突破1000人，解决方案库持续丰富",
+        "type": "achievement"
+      },
+      {
+        "id": "6",
+        "year": "2026-01",
+        "title": "对比功能上线",
+        "description": "发布多维度方案对比功能，提升用户决策效率",
+        "type": "product"
+      }
+    ]
+  },
+  "contact": {
+    "title": "联系我们",
+    "sections": {
+      "contactInfo": {
+        "title": "联系方式",
+        "icon": "mapPin"
+      },
+      "businessHours": {
+        "title": "营业时间",
+        "icon": "clock"
+      }
+    },
+    "email": "邮箱",
+    "emailValue": "contact@vseek.com",
+    "address": "地址",
+    "addressFormat": "{country} {state} {city} {street}",
+    "weekday": "周一至周五",
+    "weekend": "周末",
+    "weekend_closed": "休息",
+    "timezone": "时区",
+    "timezoneValue": "UTC+8",
+    "contactButton": "联系我们"
+  }
+}

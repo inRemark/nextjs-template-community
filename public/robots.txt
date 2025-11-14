@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Allow: /zh/
+Allow: /en/
+Allow: /ja/
+
+Disallow: /admin/
+Disallow: /api/
+Disallow: /console/
+Disallow: /profile/
+Disallow: /auth/
+
+# Sitemap
+Sitemap: https://example.com/sitemap.xml

@@ -1,0 +1,40 @@
+{
+  "title": "博客",
+  "list": {
+    "title": "AICoder 博客",
+    "description": "邮件营销的最新趋势、最佳实践和深度洞察",
+    "readMore": "阅读更多",
+    "publishedOn": "发布于",
+    "author": "作者",
+    "category": "分类",
+    "tags": "标签",
+    "noArticles": "没有找到相关文章",
+    "loading": "加载中...",
+    "search": "搜索文章...",
+    "readTime": "分钟阅读",
+    "viewsCount": "次浏览",
+    "categories": {
+      "all": "全部",
+      "email-marketing": "邮件营销",
+      "tutorials": "教程指南",
+      "updates": "产品更新",
+      "best-practices": "最佳实践",
+      "case-studies": "案例研究"
+    },
+    "pagination": {
+      "previous": "上一页",
+      "next": "下一页"
+    }
+  },
+  "detail": {
+    "backToList": "返回博客列表",
+    "backToBlog": "返回博客",
+    "relatedArticles": "相关文章",
+    "author": "作者",
+    "publishedOn": "发布时间",
+    "updatedOn": "更新时间",
+    "readTime": "阅读时间",
+    "minRead": "分钟阅读",
+    "shareArticle": "分享文章"
+  }
+}

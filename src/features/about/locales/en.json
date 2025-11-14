@@ -1,0 +1,121 @@
+{
+  "title": "About VSeek",
+  "company": {
+    "name": "VSeek",
+    "description": "A problem-driven decision support platform",
+    "mission": "Help every problem find the best solution, make every decision wiser",
+    "vision": "Become the world's leading smart decision support platform, empowering wise decisions for individuals and enterprises",
+    "founded": "2025",
+    "headquarters": "Haidian District, Beijing",
+    "employeeCount": "20-50 people"
+  },
+  "sections": {
+    "mission": {
+      "title": "Mission",
+      "icon": "target"
+    },
+    "vision": {
+      "title": "Vision",
+      "icon": "eye"
+    },
+    "founding": {
+      "title": "Founded",
+      "icon": "award"
+    }
+  },
+  "values": {
+    "title": "Our Values",
+    "items": [
+      {
+        "title": "Problem-Oriented",
+        "description": "Starting from solving practical problems, providing precise and effective decision support",
+        "icon": "heart"
+      },
+      {
+        "title": "Smart Recommendation",
+        "description": "Using AI technology to provide personalized solution recommendations to users",
+        "icon": "zap"
+      },
+      {
+        "title": "Data-Driven",
+        "description": "Based on real data and user feedback, continuously optimize recommendation algorithms",
+        "icon": "shield"
+      },
+      {
+        "title": "Open Collaboration",
+        "description": "Building an open solution ecosystem to promote knowledge sharing and collaboration",
+        "icon": "users"
+      }
+    ]
+  },
+  "timeline": {
+    "title": "Timeline",
+    "events": [
+      {
+        "id": "1",
+        "year": "2025-08",
+        "title": "VSeek Founded",
+        "description": "Focus on developing problem-driven decision support platform",
+        "type": "milestone"
+      },
+      {
+        "id": "2",
+        "year": "2025-09",
+        "title": "Product Beta Release",
+        "description": "Complete core function development, begin inviting users for testing",
+        "type": "product"
+      },
+      {
+        "id": "3",
+        "year": "2025-10",
+        "title": "Smart Recommendation Algorithm Launch",
+        "description": "AI-based personalized solution recommendation system officially released",
+        "type": "product"
+      },
+      {
+        "id": "4",
+        "year": "2025-11",
+        "title": "V1.0 Official Launch",
+        "description": "VSeek platform officially launched, acquired initial registered users",
+        "type": "milestone"
+      },
+      {
+        "id": "5",
+        "year": "2025-12",
+        "title": "1000+ Users",
+        "description": "Registered users exceed 1000, solution library continues to enrich",
+        "type": "achievement"
+      },
+      {
+        "id": "6",
+        "year": "2026-01",
+        "title": "Comparison Feature Launch",
+        "description": "Release multi-dimensional solution comparison feature, improving user decision efficiency",
+        "type": "product"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "sections": {
+      "contactInfo": {
+        "title": "Contact Information",
+        "icon": "mapPin"
+      },
+      "businessHours": {
+        "title": "Business Hours",
+        "icon": "clock"
+      }
+    },
+    "email": "Email",
+    "emailValue": "contact@vseek.com",
+    "address": "Address",
+    "addressFormat": "{street}, {city}, {state}, {country}",
+    "weekday": "Monday to Friday",
+    "weekend": "Weekend",
+    "weekend_closed": "Closed",
+    "timezone": "Timezone",
+    "timezoneValue": "UTC+8",
+    "contactButton": "Contact Us"
+  }
+}

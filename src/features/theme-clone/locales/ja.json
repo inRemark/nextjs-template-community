@@ -1,0 +1,36 @@
+{
+  "themeClone": {
+    "title": "🎨 テーマクローン",
+    "description": "ワンクリックでウェブの色とフォントを抽出し、使用可能なテーマコードを生成",
+    "form": {
+      "urlLabel": "ウェブサイト URL",
+      "urlPlaceholder": "https://example.com",
+      "exampleLabel": "例：",
+      "submitButton": "テーマを抽出",
+      "extracting": "抽出中..."
+    },
+    "preview": {
+      "title": "ウェブサイトプレビュー",
+      "fileSize": "KB",
+      "generatedTime": "抽出時刻：",
+      "noScreenshot": "スクリーンショットが生成されていません"
+    },
+    "statistics": {
+      "title": "抽出統計",
+      "colors": "色",
+      "fonts": "フォント",
+      "cssVariables": "CSS 変数"
+    },
+    "results": {
+      "title": "抽出結果",
+      "description": "抽出した色、フォント、デザイントークンを表示およびエクスポート",
+      "colorsTab": "色",
+      "fontsTab": "フォント",
+      "exportTab": "エクスポート"
+    },
+    "empty": {
+      "title": "上記に URL を入力してテーマの抽出を開始",
+      "description": "色、フォント、デザイントークンなどの情報の抽出に対応"
+    }
+  }
+}

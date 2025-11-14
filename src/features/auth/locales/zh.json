@@ -1,0 +1,55 @@
+{
+  "backToHome": "返回首页",
+  "copyright": "版权所有 © 2023 VSeek. 版权所有",
+  "login": {
+    "title": "欢迎回来",
+    "subtitle": "登录您的 VSeek 账户",
+    "emailLabel": "邮箱地址",
+    "emailPlaceholder": "请输入邮箱地址",
+    "passwordLabel": "密码",
+    "passwordPlaceholder": "请输入密码",
+    "rememberMe": "记住我",
+    "forgotPassword": "忘记密码?",
+    "submitButton": "登录",
+    "submitting": "登录中...",
+    "noAccount": "还没有账户？",
+    "registerLink": "立即注册",
+    "dividerOr": "或"
+  },
+  "register": {
+    "title": "创建账户",
+    "subtitle": "加入 VSeek，开始智能决策之旅",
+    "emailLabel": "邮箱地址",
+    "emailPlaceholder": "请输入邮箱地址",
+    "passwordLabel": "密码",
+    "passwordPlaceholder": "请输入密码",
+    "confirmPasswordLabel": "确认密码",
+    "confirmPasswordPlaceholder": "请再次输入密码",
+    "submitButton": "创建账户",
+    "submitting": "注册中...",
+    "hasAccount": "已经有账户了？",
+    "loginLink": "立即登录",
+    "dividerOr": "或",
+    "referralInvite": "邀请您加入 VSeek",
+    "referralBonus": "+50 积分",
+    "referralBenefit": "注册成功后，您和推荐人都将获得积分奖励！",
+    "friend": "好友"
+  },
+  "validation": {
+    "emailRequired": "请输入邮箱地址",
+    "emailInvalid": "请输入有效的邮箱地址",
+    "passwordRequired": "请输入密码",
+    "passwordTooShort": "密码至少需要{min}位字符",
+    "passwordNeedLetter": "密码需要包含字母",
+    "passwordNeedNumber": "密码需要包含数字",
+    "confirmPasswordRequired": "请确认密码",
+    "passwordMismatch": "两次输入的密码不一致"
+  },
+  "errors": {
+    "loginFailed": "登录失败，请检查邮箱和密码",
+    "registerFailed": "注册失败，请稍后再试",
+    "networkError": "网络错误，请稍后再试",
+    "socialLoginFailed": "{provider} 登录失败: {error}",
+    "socialRegisterFailed": "{provider} 注册失败: {error}"
+  }
+}

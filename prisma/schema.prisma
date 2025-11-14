@@ -1,0 +1,364 @@
+// ============================================
+// Prisma Configuration
+// ============================================
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================
+// Core Authentication Models (Required)
+// ============================================
+
+// User table - Core authentication model
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  name          String?
+  password      String? // local auth password hash
+  role          UserRole  @default(USER)
+  isActive      Boolean   @default(true)
+  emailVerified DateTime?
+  image         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  // NextAuth Required Relations
+  sessions Session[]
+  accounts Account[]
+
+  // OAuth Relations
+  oauthAccounts OAuthAccount[]
+
+  // Business Relations
+  notifications           Notification[]        @relation("UserNotifications")
+  notificationSettingsNew NotificationSettings? @relation("UserNotificationSettingsNew")
+
+  articles                Article[]
+
+  // Order & Payment Relations
+
+
+  @@map("users")
+}
+
+enum UserRole {
+  ADMIN
+  EDITOR
+  USER
+}
+
+// NextAuth Session table
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("sessions")
+}
+
+// NextAuth Account table
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@map("accounts")
+}
+
+// NextAuth Verification Token
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+  @@map("verification_tokens")
+}
+
+// ============================================
+// OAuth & Extended Session (Optional)
+// ============================================
+
+// OAuth accounts table - Extended OAuth model
+model OAuthAccount {
+  id             String    @id @default(cuid())
+  userId         String
+  provider       String // 'google' | 'github' | 'wechat'
+  providerId     String // OAuth Provider User ID
+  providerEmail  String?
+  providerName   String?
+  providerAvatar String?
+  accessToken    String?   @db.Text
+  refreshToken   String?   @db.Text
+  tokenExpiresAt DateTime?
+  isPrimary      Boolean   @default(false)
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+  user           User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerId])
+  @@index([userId])
+  @@map("oauth_accounts")
+}
+
+// ============================================
+// Notification System (Optional)
+// ============================================
+
+// Notification model
+model Notification {
+  id          String               @id @default(cuid())
+  userId      String
+  type        NotificationType
+  category    NotificationCategory
+  priority    NotificationPriority
+  status      NotificationStatus   @default(UNREAD)
+  title       String
+  message     String               @db.Text
+  actionUrl   String?
+  actionLabel String?
+  actionData  Json? // 操作相关数据
+  metadata    Json? // 元数据
+  relatedId   String? // 相关资源ID
+  relatedType String? // 相关资源类型
+  expiresAt   DateTime? // 过期时间
+  readAt      DateTime? // 读取时间
+  createdAt   DateTime             @default(now())
+  updatedAt   DateTime             @updatedAt
+  user        User                 @relation("UserNotifications", fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, status])
+  @@index([userId, createdAt])
+  @@index([category, priority])
+  @@index([expiresAt])
+  @@map("notifications")
+}
+
+// 通知设置
+model NotificationSettings {
+  id     String @id @default(cuid())
+  userId String @unique
+
+  // Email 渠道设置
+  emailEnabled     Boolean  @default(true)
+  emailDigest      String   @default("immediate") // immediate, daily, weekly, disabled
+  emailDigestTime  String? // HH:mm
+  emailCategories  String[] @default([])
+  emailMinPriority String? // low, medium, high, urgent
+
+  // Browser 渠道设置
+  browserEnabled     Boolean  @default(true)
+  browserSound       Boolean  @default(true)
+  browserDesktop     Boolean  @default(true)
+  browserCategories  String[] @default([])
+  browserMinPriority String?
+
+  // Mobile 渠道设置
+  mobileEnabled           Boolean  @default(true)
+  mobilePush              Boolean  @default(true)
+  mobileCategories        String[] @default([])
+  mobileMinPriority       String?
+  mobileQuietHoursEnabled Boolean  @default(false)
+  mobileQuietHoursStart   String? // HH:mm
+  mobileQuietHoursEnd     String? // HH:mm
+
+  // 通用设置
+  autoArchiveDays Int? @default(30)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  user      User     @relation("UserNotificationSettingsNew", fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("notification_settings")
+}
+
+enum NotificationType {
+  INFO
+  SUCCESS
+  WARNING
+  ERROR
+}
+
+enum NotificationCategory {
+  SYSTEM
+  EMAIL
+  SECURITY
+  BILLING
+  REVIEW
+  COMPARISON
+  SOCIAL
+}
+
+enum NotificationPriority {
+  LOW
+  MEDIUM
+  HIGH
+  URGENT
+}
+
+enum NotificationStatus {
+  UNREAD
+  READ
+  ARCHIVED
+}
+
+// ============================================
+// Referral & Points System (Optional)
+// ============================================
+
+// 用户积分账户
+
+
+// 积分交易记录
+
+
+// 推荐码
+
+
+// 推荐关系
+
+
+// 推荐链接点击追踪
+
+
+// 推荐转化漏斗
+
+
+// 推荐统计(聚合表,用于快速查询)
+
+
+
+
+
+
+enum ConversionStep {
+  CLICK // 点击推荐链接
+  REGISTER // 注册账户
+  FIRST_LOGIN // 首次登录
+  FIRST_ACTIVITY // 首次活动
+}
+
+enum StatsPeriod {
+  DAILY
+  WEEKLY
+  MONTHLY
+}
+
+// ============================================
+// Email Queue System (Optional)
+// ============================================
+
+// 邮件发送任务队列
+")
+  priority    EmailPriority   @default(NORMAL)
+  status      EmailTaskStatus @default(PENDING)
+  attempts    Int             @default(0)
+  maxAttempts Int             @default(3)
+  scheduledAt DateTime        @default(now())
+  sentAt      DateTime?
+  error       String?
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+
+  @@map("email_send_tasks")
+}
+
+
+
+
+
+// ============================================
+// Business Modules (Example)
+// ============================================
+
+model Article {
+  id          String    @id @default(cuid())
+  title       String
+  slug        String    @unique
+  content     String    @db.Text
+  excerpt     String?
+  coverImage  String?
+  authorId    String
+  published   Boolean   @default(false)
+  publishedAt DateTime?
+  viewCount   Int       @default(0)
+  tags        String[]  @default([])
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  author      User      @relation(fields: [authorId], references: [id], onDelete: Cascade)
+
+  @@index([authorId])
+  @@index([published, publishedAt])
+  @@index([slug])
+  @@map("articles")
+}
+
+// ============================================
+// Order & Payment System
+// ============================================
+
+// 产品表
+
+
+// 产品价格表
+
+
+// 订单表
+
+
+// 支付记录表
+
+
+// 退款记录表
+
+
+// 发票表
+
+
+// ==================== 枚举类型 ====================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 系统日志类型与级别
+
+
+
+
+// 系统日志表
+")
+  createdAt DateTime @default(now())
+
+  @@index([type, createdAt])
+  @@index([userId, createdAt])
+  @@map("system_logs")
+}

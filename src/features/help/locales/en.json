@@ -1,0 +1,50 @@
+{
+  "title": "Help Center",
+  "list": {
+    "title": "Help Center",
+    "description": "Find answers, learn tutorials, and get support",
+    "search": "Search help articles...",
+    "noArticles": "No related articles found",
+    "loading": "Loading...",
+    "readMore": "Read More",
+    "readTime": "min read",
+    "categories": {
+      "all": "All",
+      "getting-started": "Getting Started",
+      "account": "Account",
+      "troubleshooting": "Troubleshooting",
+      "features": "Features",
+      "billing": "Billing",
+      "api": "API Docs"
+    },
+    "difficulty": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "detail": {
+    "backToList": "Back to Help Center",
+    "relatedArticles": "Related Articles",
+    "author": "Author",
+    "publishedOn": "Published On",
+    "updatedOn": "Updated On",
+    "readTime": "Read Time",
+    "minRead": "min read",
+    "helpful": "Was this article helpful?",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "search": {
+    "title": "How can we help?",
+    "placeholder": "Search help articles, tutorials or FAQs...",
+    "noResults": "No related content found",
+    "results": "Search Results",
+    "searching": "Searching...",
+    "lastUpdated": "Last updated"
+  }
+}

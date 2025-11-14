@@ -1,0 +1,54 @@
+{
+  "screenshot": {
+    "title": "📷 Batch Screenshot",
+    "description": "Batch screenshot tool",
+    "form": {
+      "urlsLabel": "Website URL List",
+      "urlsPlaceholder": "One URL per line, e.g.:\nhttps://github.com\nhttps://vercel.com\nhttps://linear.app",
+      "urlsHint": "Supports http:// and https://, protocols are auto-completed",
+      "urlCount": "/ 10",
+      "screenshotModeLabel": "Screenshot Mode",
+      "viewportModeViewport": "Viewport Screenshot",
+      "viewportModeFast": "Faster speed",
+      "viewportModeFullpage": "Full Page Screenshot",
+      "viewportModeScroll": "Includes scrollable content",
+      "viewportLabel": "Viewport Size",
+      "viewportDesktop": "Desktop",
+      "viewportDesktopSize": "1920 x 1080",
+      "viewportTablet": "Tablet",
+      "viewportTabletSize": "768 x 1024",
+      "viewportMobile": "Mobile",
+      "viewportMobileSize": "375 x 667",
+      "submitButton": "Start Batch Screenshot",
+      "loading": "Taking screenshots...",
+      "errorEmpty": "Please enter at least one URL",
+      "errorTooMany": "Free version supports up to 10 URLs",
+      "errorInvalidFormat": "The following URLs have invalid format:",
+      "errorNoViewport": "Please select at least one viewport size"
+    },
+    "progress": {
+      "title": "Screenshot Progress",
+      "successCount": "Successful",
+      "failureCount": "Failed",
+      "successLabel": "Successful",
+      "failureLabel": "Failed"
+    },
+    "statistics": {
+      "title": "Screenshot Statistics",
+      "totalCount": "Total",
+      "successCount": "Successful",
+      "failureCount": "Failed",
+      "totalSize": "Total Size (MB)"
+    },
+    "results": {
+      "title": "Screenshot Results",
+      "selectAll": "Select All",
+      "downloadSelected": "Download ZIP",
+      "files": "files"
+    },
+    "empty": {
+      "title": "Enter URLs above to start batch screenshot",
+      "description": "Supports batch input of multiple URLs for screenshot"
+    }
+  }
+}

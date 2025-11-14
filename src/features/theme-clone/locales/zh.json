@@ -1,0 +1,36 @@
+{
+  "themeClone": {
+    "title": "🎨 主题克隆",
+    "description": "一键提取网页配色与字体，生成可用的主题代码",
+    "form": {
+      "urlLabel": "网站 URL",
+      "urlPlaceholder": "https://example.com",
+      "exampleLabel": "示例：",
+      "submitButton": "提取主题",
+      "extracting": "提取中..."
+    },
+    "preview": {
+      "title": "网页预览",
+      "fileSize": "KB",
+      "generatedTime": "提取时间：",
+      "noScreenshot": "未生成截图"
+    },
+    "statistics": {
+      "title": "提取统计",
+      "colors": "颜色",
+      "fonts": "字体",
+      "cssVariables": "CSS 变量"
+    },
+    "results": {
+      "title": "提取结果",
+      "description": "查看和导出提取的配色、字体和设计 Token",
+      "colorsTab": "颜色",
+      "fontsTab": "字体",
+      "exportTab": "导出"
+    },
+    "empty": {
+      "title": "在上方输入网址开始提取主题",
+      "description": "支持提取配色、字体、设计 Token 等信息"
+    }
+  }
+}

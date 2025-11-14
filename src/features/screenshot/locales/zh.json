@@ -1,0 +1,54 @@
+{
+  "screenshot": {
+    "title": "📷 批量截图",
+    "description": "网页批量截图工具",
+    "form": {
+      "urlsLabel": "网站 URL 列表",
+      "urlsPlaceholder": "每行一个 URL，例如：\nhttps://github.com\nhttps://vercel.com\nhttps://linear.app",
+      "urlsHint": "支持 http:// 和 https://，自动补全协议",
+      "urlCount": "/ 10",
+      "screenshotModeLabel": "截图模式",
+      "viewportModeViewport": "可视区域截图",
+      "viewportModeFast": "速度更快",
+      "viewportModeFullpage": "全页面截图",
+      "viewportModeScroll": "包含滚动区域",
+      "viewportLabel": "视口尺寸",
+      "viewportDesktop": "桌面端",
+      "viewportDesktopSize": "1920 x 1080",
+      "viewportTablet": "平板",
+      "viewportTabletSize": "768 x 1024",
+      "viewportMobile": "手机",
+      "viewportMobileSize": "375 x 667",
+      "submitButton": "开始批量截图",
+      "loading": "批量截图中...",
+      "errorEmpty": "请至少输入一个 URL",
+      "errorTooMany": "免费版最多支持 10 个 URL",
+      "errorInvalidFormat": "以下 URL 格式无效：",
+      "errorNoViewport": "请至少选择一个视口尺寸"
+    },
+    "progress": {
+      "title": "批量截图进度",
+      "successCount": "成功",
+      "failureCount": "失败",
+      "successLabel": "成功",
+      "failureLabel": "失败"
+    },
+    "statistics": {
+      "title": "截图统计",
+      "totalCount": "总数",
+      "successCount": "成功",
+      "failureCount": "失败",
+      "totalSize": "总大小 (MB)"
+    },
+    "results": {
+      "title": "截图结果",
+      "selectAll": "全选",
+      "downloadSelected": "批量下载 ZIP",
+      "files": "张"
+    },
+    "empty": {
+      "title": "在上方输入网址开始批量截图",
+      "description": "支持批量输入多个网址进行截图"
+    }
+  }
+}

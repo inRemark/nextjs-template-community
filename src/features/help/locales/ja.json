@@ -1,0 +1,50 @@
+{
+  "title": "ヘルプセンター",
+  "list": {
+    "title": "ヘルプセンター",
+    "description": "回答を見つけ、チュートリアルを学び、サポートを受ける",
+    "search": "ヘルプ記事を検索...",
+    "noArticles": "関連記事が見つかりません",
+    "loading": "読み込み中...",
+    "readMore": "続きを読む",
+    "readTime": "分で読めます",
+    "categories": {
+      "all": "全て",
+      "getting-started": "はじめに",
+      "account": "アカウント",
+      "troubleshooting": "トラブルシューティング",
+      "features": "機能",
+      "billing": "請求",
+      "api": "API ドキュメント"
+    },
+    "difficulty": {
+      "beginner": "初心者向け",
+      "intermediate": "中級者向け",
+      "advanced": "上級者向け"
+    },
+    "pagination": {
+      "previous": "前へ",
+      "next": "次へ"
+    }
+  },
+  "detail": {
+    "backToList": "ヘルプセンターに戻る",
+    "relatedArticles": "関連記事",
+    "author": "著者",
+    "publishedOn": "公開日",
+    "updatedOn": "更新日",
+    "readTime": "読了時間",
+    "minRead": "分で読めます",
+    "helpful": "この記事は役に立ちましたか？",
+    "yes": "はい",
+    "no": "いいえ"
+  },
+  "search": {
+    "title": "どうお手伝いしましょうか?",
+    "placeholder": "ヘルプ記事、チュートリアルまたは FAQ を検索...",
+    "noResults": "関連コンテンツが見つかりません",
+    "results": "検索結果",
+    "searching": "検索中...",
+    "lastUpdated": "最終更新"
+  }
+}

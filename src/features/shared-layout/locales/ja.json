@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "について",
+    "features": "機能",
+    "blog": "ブログ",
+    "articles": "記事",
+    "pricing": "料金",
+    "help": "ヘルプ",
+    "screenshot": "スクリーンショット",
+    "themeClone": "テーマクローン",
+    "login": "ログイン",
+    "register": "登録",
+    "profile": "プロフィール",
+    "console": "コンソール",
+    "admin": "管理"
+  },
+  "header": {
+    "search": "検索",
+    "searchPlaceholder": "検索 (Ctrl+K)",
+    "profile": "プロフィール",
+    "orders": "民の注文",
+    "settings": "アカウント設定",
+    "logout": "ログアウト"
+  },
+  "footer": {
+    "company": "企業",
+    "product": "製品",
+    "resources": "リソース",
+    "legal": "法的",
+    "social": "ソーシャル",
+    "copyright": "著作権",
+    "allRightsReserved": "著作権所有",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "cookiePolicy": "Cookieポリシー",
+    "contact": "お問い合わせ",
+    "followUs": "フォローする",
+    "description": "問題志向の意思決定支援プラットフォーム。知的推奨と体系的な比較により、最適なソリューションを素早く見つけることができます。",
+    "icp": "ICP登録：京ICP备12345678号"
+  }
+}

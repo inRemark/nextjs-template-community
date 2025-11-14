@@ -1,0 +1,40 @@
+{
+  "title": "Blog",
+  "list": {
+    "title": "AICoder Blog",
+    "description": "Latest trends, best practices and insights into email marketing",
+    "readMore": "Read More",
+    "publishedOn": "Published on",
+    "author": "Author",
+    "category": "Category",
+    "tags": "Tags",
+    "noArticles": "No related articles found",
+    "loading": "Loading...",
+    "search": "Search articles...",
+    "readTime": "min read",
+    "viewsCount": "views",
+    "categories": {
+      "all": "All",
+      "email-marketing": "Email Marketing",
+      "tutorials": "Tutorials",
+      "updates": "Product Updates",
+      "best-practices": "Best Practices",
+      "case-studies": "Case Studies"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "detail": {
+    "backToList": "Back to Blog",
+    "backToBlog": "Back to Blog",
+    "relatedArticles": "Related Articles",
+    "author": "Author",
+    "publishedOn": "Published",
+    "updatedOn": "Updated",
+    "readTime": "Read time",
+    "minRead": "min read",
+    "shareArticle": "Share Article"
+  }
+}

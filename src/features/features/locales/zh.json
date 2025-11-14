@@ -1,0 +1,126 @@
+{
+  "badge": "智能决策支持平台",
+  "hero": {
+    "title": "让每个问题",
+    "titleHighlight": "找到最佳解决方案",
+    "description": "VSeek是基于问题导向的决策支持平台，通过智能推荐和结构化对比，帮助您快速找到最适合的解决方案",
+    "primaryButton": "开始探索",
+    "secondaryButton": "浏览问题",
+    "tagline": "免费使用 · 无需注册 · 即用即得"
+  },
+  "features": {
+    "title": "核心功能",
+    "description": "VSeek提供完整的决策支持工具链，从问题发现到方案选择，一站式解决您的需求",
+    "items": [
+      {
+        "title": "智能搜索",
+        "description": "强大的搜索功能，支持中文关键词搜索和实时搜索建议",
+        "benefits": ["中文搜索优化", "实时搜索建议", "热门搜索统计", "搜索结果排序"]
+      },
+      {
+        "title": "智能推荐",
+        "description": "基于AI算法的三层推荐系统，为您推荐最适合的解决方案",
+        "benefits": ["分类推荐", "个性化推荐", "热门推荐", "复合评分算法"]
+      },
+      {
+        "title": "方案对比",
+        "description": "多维度对比分析，帮助您做出最优决策",
+        "benefits": ["多维度对比", "价格比较", "功能对比", "用户评价对比"]
+      },
+      {
+        "title": "用户评价",
+        "description": "真实的用户评价和反馈，让您了解实际使用体验",
+        "benefits": ["星级评分", "优缺点分析", "使用体验分享", "评价统计"]
+      },
+      {
+        "title": "问题导向",
+        "description": "以问题为核心的索引方式，更符合实际使用场景",
+        "benefits": ["问题分类", "问题详情", "关联方案", "使用场景"]
+      },
+      {
+        "title": "质量保证",
+        "description": "严格的内容审核和质量控制，确保信息的准确性",
+        "benefits": ["内容审核", "质量评分", "用户验证", "持续更新"]
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "如何使用 VSeek",
+    "description": "简单三步，找到最适合的解决方案",
+    "steps": [
+      {
+        "step": "01",
+        "title": "搜索问题",
+        "description": "输入您遇到的问题或需求，我们提供智能搜索建议"
+      },
+      {
+        "step": "02",
+        "title": "获取推荐",
+        "description": "基于AI算法为您推荐最适合的解决方案"
+      },
+      {
+        "step": "03",
+        "title": "对比选择",
+        "description": "多维度对比分析，做出最优决策"
+      }
+    ]
+  },
+  "advantages": {
+    "title": "为什么选择 VSeek?",
+    "description": "相比传统工具推荐，VSeek提供更精准、更实用的决策支持",
+    "comparison": "传统方式 vs VSeek",
+    "items": [
+      {
+        "title": "搜索方式",
+        "traditional": "搜索工具名称",
+        "vseek": "搜索实际问题",
+        "advantage": "更符合实际需求"
+      },
+      {
+        "title": "推荐逻辑",
+        "traditional": "基于工具特性",
+        "vseek": "基于问题解决方案",
+        "advantage": "更精准的匹配"
+      },
+      {
+        "title": "对比维度",
+        "traditional": "功能特性对比",
+        "vseek": "多维度综合对比",
+        "advantage": "更全面的决策支持"
+      },
+      {
+        "title": "用户反馈",
+        "traditional": "缺乏真实评价",
+        "vseek": "真实用户评价",
+        "advantage": "更可信的参考"
+      }
+    ],
+    "benefits": [
+      "问题导向的搜索方式",
+      "AI智能推荐算法",
+      "多维度对比分析",
+      "真实用户评价"
+    ]
+  },
+  "statistics": {
+    "title": "平台数据",
+    "items": [
+      {
+        "number": "50+",
+        "label": "问题分类"
+      },
+      {
+        "number": "200+",
+        "label": "解决方案"
+      },
+      {
+        "number": "95%",
+        "label": "推荐准确率"
+      },
+      {
+        "number": "1000+",
+        "label": "用户评价"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+/* Use Tailwind's built-in dark mode class */
+:root.dark &,
+.dark :root & {
+  /* Place your dark mode overrides here */
+}

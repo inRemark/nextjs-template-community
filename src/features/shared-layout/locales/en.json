@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "blog": "Blog",
+    "features": "Features",
+    "articles": "Articles",
+    "pricing": "Pricing",
+    "help": "Help",
+    "screenshot": "Screenshot",
+    "themeClone": "Theme Clone",
+    "login": "Login",
+    "register": "Register",
+    "profile": "Profile",
+    "console": "Console",
+    "admin": "Admin"
+  },
+  "header": {
+    "search": "Search",
+    "searchPlaceholder": "Search (Ctrl+K)",
+    "profile": "Profile",
+    "orders": "My Orders",
+    "settings": "Account Settings",
+    "logout": "Logout"
+  },
+  "footer": {
+    "company": "Company",
+    "product": "Product",
+    "resources": "Resources",
+    "legal": "Legal",
+    "social": "Social",
+    "copyright": "Copyright",
+    "allRightsReserved": "All Rights Reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "contact": "Contact Us",
+    "followUs": "Follow Us",
+    "description": "A problem-oriented decision support platform that helps you quickly find the best solutions through intelligent recommendations and structured comparisons.",
+    "icp": "ICP License:京ICP备12345678号"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "blog": "博客",
+    "features": "功能",
+    "articles": "文章",
+    "pricing": "价格",
+    "help": "帮助",
+    "screenshot": "网页截图",
+    "themeClone": "主题克隆",
+    "login": "登录",
+    "register": "注册",
+    "profile": "个人中心",
+    "console": "控制台",
+    "admin": "管理后台"
+  },
+  "header": {
+    "search": "搜索",
+    "searchPlaceholder": "搜索 (Ctrl+K)",
+    "profile": "个人中心",
+    "orders": "我的订单",
+    "settings": "账号设置",
+    "logout": "退出登录"
+  },
+  "footer": {
+    "company": "公司",
+    "product": "产品",
+    "resources": "资源",
+    "legal": "法律",
+    "social": "社交",
+    "copyright": "版权所有",
+    "allRightsReserved": "保留所有权利",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "cookiePolicy": "Cookie政策",
+    "contact": "联系我们",
+    "followUs": "关注我们",
+    "description": "基于问题导向的决策支持平台，通过智能推荐和结构化对比，帮助您快速找到最适合的解决方案。",
+    "icp": "ICP备案号：京ICP备12345678号"
+  }
+}
+

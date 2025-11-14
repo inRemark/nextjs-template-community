@@ -1,0 +1,55 @@
+{
+  "backToHome": "ホームに戻る",
+  "copyright": "Copyright © 2023 VSeek. All rights reserved.",
+  "login": {
+    "title": "お帰りなさい",
+    "subtitle": "VSeekアカウントにログイン",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "メールアドレスを入力",
+    "passwordLabel": "パスワード",
+    "passwordPlaceholder": "パスワードを入力",
+    "rememberMe": "ログイン状態を保持",
+    "forgotPassword": "パスワードをお忘れですか?",
+    "submitButton": "ログイン",
+    "submitting": "ログイン中...",
+    "noAccount": "アカウントをお持ちでないですか?",
+    "registerLink": "今すぐ登録",
+    "dividerOr": "または"
+  },
+  "register": {
+    "title": "アカウント作成",
+    "subtitle": "VSeekに参加して、スマート意思決定の旅を始めましょう",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "メールアドレスを入力",
+    "passwordLabel": "パスワード",
+    "passwordPlaceholder": "パスワードを入力",
+    "confirmPasswordLabel": "パスワード確認",
+    "confirmPasswordPlaceholder": "パスワードを再入力",
+    "submitButton": "アカウント作成",
+    "submitting": "登録中...",
+    "hasAccount": "既にアカウントをお持ちですか?",
+    "loginLink": "今すぐログイン",
+    "dividerOr": "または",
+    "referralInvite": "がVSeekへの参加を招待しています",
+    "referralBonus": "+50ポイント",
+    "referralBenefit": "登録成功後、あなたと紹介者の両方がボーナスポイントを受け取ります！",
+    "friend": "友達"
+  },
+  "validation": {
+    "emailRequired": "メールアドレスを入力してください",
+    "emailInvalid": "有効なメールアドレスを入力してください",
+    "passwordRequired": "パスワードを入力してください",
+    "passwordTooShort": "パスワードは{min}文字以上必要です",
+    "passwordNeedLetter": "パスワードには文字が含まれている必要があります",
+    "passwordNeedNumber": "パスワードには数字が含まれている必要があります",
+    "confirmPasswordRequired": "パスワードを確認してください",
+    "passwordMismatch": "パスワードが一致しません"
+  },
+  "errors": {
+    "loginFailed": "ログインに失敗しました。メールアドレスとパスワードを確認してください",
+    "registerFailed": "登録に失敗しました。後でもう一度お試しください",
+    "networkError": "ネットワークエラーが発生しました。後でもう一度お試しください",
+    "socialLoginFailed": "{provider}ログインに失敗しました: {error}",
+    "socialRegisterFailed": "{provider}登録に失敗しました: {error}"
+  }
+}

@@ -1,0 +1,36 @@
+import {
+  MarkdownH1,
+  MarkdownH2,
+  MarkdownH3,
+  MarkdownP,
+  MarkdownUl,
+  MarkdownOl,
+  MarkdownLi,
+  MarkdownStrong,
+  MarkdownEm,
+  MarkdownCode,
+  MarkdownPre,
+  MarkdownBlockquote,
+  MarkdownTable,
+  MarkdownTh,
+  MarkdownTd,
+} from './markdown-components';
+
+// Markdown components configuration
+export const markdownComponents = {
+  h1: MarkdownH1,
+  h2: MarkdownH2,
+  h3: MarkdownH3,
+  p: MarkdownP,
+  ul: MarkdownUl,
+  ol: MarkdownOl,
+  li: MarkdownLi,
+  strong: MarkdownStrong,
+  em: MarkdownEm,
+  code: MarkdownCode,
+  pre: MarkdownPre,
+  blockquote: MarkdownBlockquote,
+  table: MarkdownTable,
+  th: MarkdownTh,
+  td: MarkdownTd,
+};

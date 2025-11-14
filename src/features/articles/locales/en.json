@@ -1,0 +1,40 @@
+{
+  "title": "Article Center",
+  "list": {
+    "title": "Article Center",
+    "description": "This is a dynamic content example module",
+    "readMore": "Read More",
+    "publishedOn": "Published on",
+    "author": "Author",
+    "upvotes": "Upvotes",
+    "noArticles": "No articles found",
+    "loading": "Loading...",
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "current": "Page {page} / {totalPages}"
+    },
+    "cover": "Cover Image",
+    "views": "views",
+    "anonymous": "Anonymous",
+    "unpublished": "Unpublished",
+    "moreTags": "More Tags"
+  },
+  "detail": {
+    "backToList": "Back to Article List",
+    "relatedSolutions": "Related Solutions",
+    "author": "Author",
+    "publishedOn": "Published",
+    "upvotes": "Upvotes",
+    "views": "views",
+    "helpful": "Helpful",
+    "notHelpful": "Not Helpful",
+    "shareArticle": "Share Article",
+    "viewMore": "View more",
+    "anonymous": "Anonymous"
+  },
+  "seoTags": {
+    "title": "Articles",
+    "description": "Explore technical articles, development guides and best practices"
+  }
+}

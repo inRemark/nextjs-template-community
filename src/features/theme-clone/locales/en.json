@@ -1,0 +1,36 @@
+{
+  "themeClone": {
+    "title": "🎨 Theme Clone",
+    "description": "Extract web colors and fonts with one click, generate usable theme code",
+    "form": {
+      "urlLabel": "Website URL",
+      "urlPlaceholder": "https://example.com",
+      "exampleLabel": "Examples:",
+      "submitButton": "Extract Theme",
+      "extracting": "Extracting..."
+    },
+    "preview": {
+      "title": "Website Preview",
+      "fileSize": "KB",
+      "generatedTime": "Extraction Time:",
+      "noScreenshot": "No screenshot generated"
+    },
+    "statistics": {
+      "title": "Extraction Statistics",
+      "colors": "Colors",
+      "fonts": "Fonts",
+      "cssVariables": "CSS Variables"
+    },
+    "results": {
+      "title": "Extraction Results",
+      "description": "View and export extracted colors, fonts, and design tokens",
+      "colorsTab": "Colors",
+      "fontsTab": "Fonts",
+      "exportTab": "Export"
+    },
+    "empty": {
+      "title": "Enter a URL above to start extracting theme",
+      "description": "Supports extracting colors, fonts, design tokens and more"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "screenshot": {
+    "title": "📷 一括スクリーンショット",
+    "description": "一括スクリーンショットツール",
+    "form": {
+      "urlsLabel": "ウェブサイト URL リスト",
+      "urlsPlaceholder": "1 行に 1 つの URL、例：\nhttps://github.com\nhttps://vercel.com\nhttps://linear.app",
+      "urlsHint": "http:// と https:// に対応、プロトコルは自動補完",
+      "urlCount": "/ 10",
+      "screenshotModeLabel": "スクリーンショットモード",
+      "viewportModeViewport": "ビューポートスクリーンショット",
+      "viewportModeFast": "高速取得",
+      "viewportModeFullpage": "全ページスクリーンショット",
+      "viewportModeScroll": "スクロール領域を含む",
+      "viewportLabel": "ビューポートサイズ",
+      "viewportDesktop": "デスクトップ",
+      "viewportDesktopSize": "1920 x 1080",
+      "viewportTablet": "タブレット",
+      "viewportTabletSize": "768 x 1024",
+      "viewportMobile": "モバイル",
+      "viewportMobileSize": "375 x 667",
+      "submitButton": "一括スクリーンショットを開始",
+      "loading": "スクリーンショット撮影中...",
+      "errorEmpty": "少なくとも 1 つの URL を入力してください",
+      "errorTooMany": "無料版は最大 10 個の URL に対応",
+      "errorInvalidFormat": "次の URL は無効な形式です：",
+      "errorNoViewport": "少なくとも 1 つのビューポートサイズを選択してください"
+    },
+    "progress": {
+      "title": "スクリーンショット進行状況",
+      "successCount": "成功",
+      "failureCount": "失敗",
+      "successLabel": "成功",
+      "failureLabel": "失敗"
+    },
+    "statistics": {
+      "title": "スクリーンショット統計",
+      "totalCount": "合計",
+      "successCount": "成功",
+      "failureCount": "失敗",
+      "totalSize": "合計サイズ (MB)"
+    },
+    "results": {
+      "title": "スクリーンショット結果",
+      "selectAll": "すべて選択",
+      "downloadSelected": "ZIP をダウンロード",
+      "files": "ファイル"
+    },
+    "empty": {
+      "title": "上記に URL を入力して一括スクリーンショットを開始",
+      "description": "複数の URL を一括入力してスクリーンショットに対応"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "badge": "Smart Decision Support Platform",
+  "quickTools": {
+    "title": "Quick Tools",
+    "items": [
+      {
+        "key": "themeClone",
+        "name": "Theme Clone",
+        "description": "Extract design system colors and fonts from any website",
+        "href": "/theme-clone"
+      },
+      {
+        "key": "screenshot",
+        "name": "Screenshot",
+        "description": "Capture and analyze website screenshots with responsive detection",
+        "href": "/screenshot"
+      }
+    ]
+  },
+  "hero": {
+    "title": "Let Every Problem",
+    "titleHighlight": "Find the Best Solution",
+    "description": "VSeek is a problem-driven decision support platform that helps you quickly find the most suitable solution through intelligent recommendations and structured comparisons",
+    "primaryButton": "Start Exploring",
+    "secondaryButton": "Browse Questions",
+    "tagline": "Free to use · No registration · Ready to use"
+  },
+  "features": {
+    "title": "Core Features",
+    "description": "VSeek provides a complete decision support tool chain, from problem discovery to solution selection, solving your needs in one place",
+    "items": [
+      {
+        "title": "Smart Search",
+        "description": "Powerful search function supporting Chinese keyword search and real-time search suggestions",
+        "benefits": ["Chinese search optimization", "Real-time search suggestions", "Popular search statistics", "Search result sorting"]
+      },
+      {
+        "title": "Smart Recommendation",
+        "description": "Three-layer recommendation system based on AI algorithms, recommending the best solutions for you",
+        "benefits": ["Category recommendation", "Personalized recommendation", "Popular recommendation", "Composite scoring algorithm"]
+      },
+      {
+        "title": "Solution Comparison",
+        "description": "Multi-dimensional comparison analysis to help you make optimal decisions",
+        "benefits": ["Multi-dimensional comparison", "Price comparison", "Feature comparison", "User rating comparison"]
+      },
+      {
+        "title": "User Reviews",
+        "description": "Real user reviews and feedback, allowing you to understand actual usage experience",
+        "benefits": ["Star ratings", "Pros and cons analysis", "User experience sharing", "Review statistics"]
+      },
+      {
+        "title": "Problem-Oriented",
+        "description": "Problem-centered indexing method, more in line with actual usage scenarios",
+        "benefits": ["Problem classification", "Problem details", "Related solutions", "Use cases"]
+      },
+      {
+        "title": "Quality Assurance",
+        "description": "Strict content review and quality control to ensure information accuracy",
+        "benefits": ["Content review", "Quality scoring", "User verification", "Continuous updates"]
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "description": "Three simple steps to extract website design elements and export code",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Input URL",
+        "description": "Enter your target website URL or browse from homepage, support batch submission"
+      },
+      {
+        "step": "02",
+        "title": "Wait for Analysis",
+        "description": "System automatically captures screenshots and extracts design elements including colors, fonts, and layout"
+      },
+      {
+        "step": "03",
+        "title": "Export Results",
+        "description": "Export as design code, color palettes, design tokens, supporting multiple formats"
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Why Choose VSeek?",
+    "description": "Compared to traditional tool recommendations, VSeek provides more accurate and practical decision support",
+    "comparison": "Traditional Way vs VSeek",
+    "items": [
+      {
+        "title": "Search Method",
+        "traditional": "Search tool name",
+        "vseek": "Search actual problem",
+        "advantage": "Better aligned with actual needs"
+      },
+      {
+        "title": "Recommendation Logic",
+        "traditional": "Based on tool features",
+        "vseek": "Based on problem solutions",
+        "advantage": "More accurate matching"
+      },
+      {
+        "title": "Comparison Dimensions",
+        "traditional": "Feature feature comparison",
+        "vseek": "Multi-dimensional comprehensive comparison",
+        "advantage": "More comprehensive decision support"
+      },
+      {
+        "title": "User Feedback",
+        "traditional": "Lack of real reviews",
+        "vseek": "Real user reviews",
+        "advantage": "More trustworthy reference"
+      }
+    ],
+    "benefits": [
+      "Problem-oriented search method",
+      "AI intelligent recommendation algorithm",
+      "Multi-dimensional comparison analysis",
+      "Real user reviews"
+    ]
+  },
+  "statistics": {
+    "title": "Platform Data",
+    "items": [
+      {
+        "number": "50+",
+        "label": "Problem Categories"
+      },
+      {
+        "number": "200+",
+        "label": "Solutions"
+      },
+      {
+        "number": "95%",
+        "label": "Recommendation Accuracy"
+      },
+      {
+        "number": "1000+",
+        "label": "User Reviews"
+      }
+    ]
+  }
+}

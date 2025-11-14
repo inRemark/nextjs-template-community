@@ -1,0 +1,121 @@
+{
+  "title": "VSeekについて",
+  "company": {
+    "name": "VSeek",
+    "description": "問題志向の意思決定サポートプラットフォーム",
+    "mission": "すべての問題に最適なソリューションを見つけ、すべての意思決定をより賢くする",
+    "vision": "世界有数のスマート意思決定サポートプラットフォームとなり、個人や企業の賢い意思決定を支援する",
+    "founded": "2025年",
+    "headquarters": "北京市海淀区",
+    "employeeCount": "20-50人"
+  },
+  "sections": {
+    "mission": {
+      "title": "ミッション",
+      "icon": "target"
+    },
+    "vision": {
+      "title": "ビジョン",
+      "icon": "eye"
+    },
+    "founding": {
+      "title": "設立日",
+      "icon": "award"
+    }
+  },
+  "values": {
+    "title": "私たちの価値観",
+    "items": [
+      {
+        "title": "問題志向",
+        "description": "実際の問題解決を出発点として、正確で効果的な意思決定支援を提供",
+        "icon": "heart"
+      },
+      {
+        "title": "スマート推奨",
+        "description": "AI技術を活用して、ユーザーに個性化されたソリューション推奨を提供",
+        "icon": "zap"
+      },
+      {
+        "title": "データドリブン",
+        "description": "実際のデータとユーザーフィードバックに基づいて、推奨アルゴリズムを継続的に最適化",
+        "icon": "shield"
+      },
+      {
+        "title": "オープン協働",
+        "description": "オープンなソリューションエコシステムを構築し、知識共有と協働を促進",
+        "icon": "users"
+      }
+    ]
+  },
+  "timeline": {
+    "title": "タイムライン",
+    "events": [
+      {
+        "id": "1",
+        "year": "2025-08",
+        "title": "VSeek正式に設立",
+        "description": "問題志向の意思決定支援プラットフォーム開発に注力",
+        "type": "milestone"
+      },
+      {
+        "id": "2",
+        "year": "2025-09",
+        "title": "製品ベータ版リリース",
+        "description": "コア機能開発完了、ユーザーテストの招待を開始",
+        "type": "product"
+      },
+      {
+        "id": "3",
+        "year": "2025-10",
+        "title": "スマート推奨アルゴリズム上線",
+        "description": "AI技術ベースの個性化ソリューション推奨システム正式リリース",
+        "type": "product"
+      },
+      {
+        "id": "4",
+        "year": "2025-11",
+        "title": "V1.0正式リリース",
+        "description": "VSeekプラットフォーム正式上線、初期登録ユーザー獲得",
+        "type": "milestone"
+      },
+      {
+        "id": "5",
+        "year": "2025-12",
+        "title": "ユーザー1000人超",
+        "description": "登録ユーザー数が1000人を超え、ソリューションライブラリ継続充実",
+        "type": "achievement"
+      },
+      {
+        "id": "6",
+        "year": "2026-01",
+        "title": "比較機能上線",
+        "description": "マルチディメンション型ソリューション比較機能リリース、ユーザー決定効率向上",
+        "type": "product"
+      }
+    ]
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "sections": {
+      "contactInfo": {
+        "title": "連絡先",
+        "icon": "mapPin"
+      },
+      "businessHours": {
+        "title": "営業時間",
+        "icon": "clock"
+      }
+    },
+    "email": "メール",
+    "emailValue": "contact@vseek.com",
+    "address": "住所",
+    "addressFormat": "{country} {state} {city} {street}",
+    "weekday": "月曜日～金曜日",
+    "weekend": "週末",
+    "weekend_closed": "休業",
+    "timezone": "タイムゾーン",
+    "timezoneValue": "UTC+8",
+    "contactButton": "お問い合わせ"
+  }
+}

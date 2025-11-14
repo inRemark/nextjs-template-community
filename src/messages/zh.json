@@ -1,0 +1,49 @@
+{
+  "common": {
+    "appName": "VSeek",
+    "loading": "加载中...",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "create": "创建",
+    "submit": "提交",
+    "search": "搜索",
+    "filter": "筛选",
+    "logout": "退出登录",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "confirm": "确认",
+    "close": "关闭"
+  },
+  "errors": {
+    "notFound": "页面未找到",
+    "unauthorized": "无权限访问",
+    "serverError": "服务器错误",
+    "networkError": "网络错误"
+  },
+  "seo": {
+    "home": {
+      "title": "AiCoder - 专业的 AI 编程助手平台",
+      "description": "AiCoder 为开发者提供智能代码生成、代码审查、自动化测试等全方位 AI 编程辅助服务。提升开发效率，降低成本，快速构建高质量应用。",
+      "keywords": "AI编程助手,代码生成,智能开发,自动化测试,开发效率,Next.js模板,全栈开发"
+    },
+    "about": {
+      "title": "关于我们 - AiCoder AI 编程助手",
+      "description": "了解 AiCoder 的使命、愿景和团队。我们致力于为开发者提供最智能的 AI 编程助手，提升代码质量和开发效率。",
+      "keywords": "关于我们,AiCoder,AI编程助手,开发团队,公司介绍,技术愿景"
+    },
+    "pricing": {
+      "title": "定价方案 - AiCoder 灵活的订阅计划",
+      "description": "查看 AiCoder 的定价方案，包括免费版、专业版和企业版。选择最适合您团队的 AI 编程助手订阅计划，提升开发效率。",
+      "keywords": "定价,订阅计划,免费版,专业版,企业版,价格,费用"
+    },
+    "articles": {
+      "title": "技术文章 - AiCoder 开发知识库",
+      "description": "探索 AiCoder 的技术文章库，涵盖 AI 编程、全栈开发、最佳实践、技术教程等内容。学习最新的开发技术和经验分享。",
+      "keywords": "技术文章,开发教程,AI编程,全栈开发,最佳实践,技术博客,编程知识"
+    }
+  }
+}
+

@@ -1,0 +1,49 @@
+{
+  "common": {
+    "appName": "VSeek",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "logout": "Logout",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "confirm": "Confirm",
+    "close": "Close"
+  },
+  "errors": {
+    "notFound": "Page Not Found",
+    "unauthorized": "Unauthorized",
+    "serverError": "Server Error",
+    "networkError": "Network Error"
+  },
+  "seo": {
+    "home": {
+      "title": "AiCoder - Professional AI Programming Assistant Platform",
+      "description": "AiCoder provides developers with intelligent code generation, code review, automated testing, and comprehensive AI programming assistance. Boost development efficiency, reduce costs, and rapidly build high-quality applications.",
+      "keywords": "AI Programming Assistant, Code Generation, Intelligent Development, Automated Testing, Development Efficiency, Next.js Template, Full Stack Development"
+    },
+    "about": {
+      "title": "About Us - AiCoder AI Programming Assistant",
+      "description": "Learn about AiCoder's mission, vision, and team. We are committed to providing developers with the smartest AI programming assistant to improve code quality and development efficiency.",
+      "keywords": "About Us, AiCoder, AI Programming Assistant, Development Team, Company Introduction, Technology Vision"
+    },
+    "pricing": {
+      "title": "Pricing Plans - Flexible AiCoder Subscription Options",
+      "description": "Explore AiCoder's pricing plans including Free, Professional, and Enterprise editions. Choose the best AI programming assistant subscription plan for your team to enhance development efficiency.",
+      "keywords": "Pricing, Subscription Plans, Free Edition, Professional Edition, Enterprise Edition, Price, Cost"
+    },
+    "articles": {
+      "title": "Technical Articles - AiCoder Development Knowledge Base",
+      "description": "Explore AiCoder's technical article library covering AI programming, full-stack development, best practices, tutorials, and more. Learn the latest development technologies and experience sharing.",
+      "keywords": "Technical Articles, Development Tutorials, AI Programming, Full Stack Development, Best Practices, Tech Blog, Programming Knowledge"
+    }
+  }
+}
+
